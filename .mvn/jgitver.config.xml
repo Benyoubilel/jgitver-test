@@ -5,5 +5,5 @@
 
     <strategy>MAVEN</strategy>
     <nonQualifierBranches>main</nonQualifierBranches>
-    <regexVersionTag>[0-9]+\.[0-9]+</regexVersionTag>
+    <regexVersionTag>[0-9]+\.*</regexVersionTag>
 </configuration>
