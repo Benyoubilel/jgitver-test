@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
     <artifactId>test-jgitver</artifactId>
-    <version>3.5.6.107.42.1.463-SNAPSHOT</version>
+    <version>3.5.6.107.42.1.464-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -14,10 +12,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 	<scm>
-		<connection>scm:git:https://github.com/Benyoubilel/jgitver-test/branches</connection>
-		<developerConnection>scm:git:https://github.com/Benyoubilel/jgitver-test/branches</developerConnection>
-		<url>https://github.com/Benyoubilel/jgitver-test/branches</url>
-	</scm>
+		<connection>scm:git:https://github.com/Benyoubilel/jgitver-test.git</connection>
+		<developerConnection>scm:git:https://github.com/Benyoubilel/jgitver-test.git</developerConnection>
+		<url>https://github.com/Benyoubilel/jgitver-test.git</url>
+  </scm>
     <build>
         <plugins>
             <plugin>
@@ -26,7 +24,7 @@
 				<version>2.5.1</version>
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
-					<tagBase>https://github.com/Benyoubilel/jgitver-test/branches</tagBase>
+					<tagBase>https://github.com/Benyoubilel/jgitver-test/settings/tag_protection</tagBase>
 					<scmCommentPrefix>JIRA#TRUNK-204#${line.separator}</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
