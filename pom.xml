@@ -14,9 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 	<scm>
-		<connection>scm:git:https://github.com/Benyoubilel/jgitver-test</connection>
-		<developerConnection>scm:git:https://github.com/Benyoubilel/jgitver-test</developerConnection>
-		<url>https://github.com/Benyoubilel/jgitver-test</url>
+		<connection>scm:git:https://github.com/Benyoubilel/jgitver-test/branches</connection>
+		<developerConnection>scm:git:https://github.com/Benyoubilel/jgitver-test/branches</developerConnection>
+		<url>https://github.com/Benyoubilel/jgitver-test/branches</url>
 	</scm>
     <build>
         <plugins>
@@ -26,7 +26,7 @@
 				<version>2.5.1</version>
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
-					<tagBase>https://github.com/Benyoubilel/jgitver-test</tagBase>
+					<tagBase>https://github.com/Benyoubilel/jgitver-test/branches</tagBase>
 					<scmCommentPrefix>JIRA#TRUNK-204#${line.separator}</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
