@@ -26,7 +26,7 @@
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<tagBase>https://github.com/Benyoubilel/jgitver-test.git</tagBase>
-					<scmCommentPrefix>JIRA#TRUNK-204#${line.separator}</scmCommentPrefix>
+					<scmCommentPrefix>update cassiopae version</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
