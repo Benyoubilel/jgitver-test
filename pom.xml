@@ -26,7 +26,7 @@
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<tagBase>https://github.com/Benyoubilel/jgitver-test.git</tagBase>
-					<scmCommentPrefix>update cassiopae version</scmCommentPrefix>
+					<scmCommentPrefix>branche test</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
