@@ -21,6 +21,12 @@
 		<url>https://github.com/Benyoubilel/jgitver-test.git</url>
     <tag>3.5.6.107.42.1.476</tag>
   </scm>
+	<distributionManagement>
+		<repository>
+			<id>local-repo</id>
+			<url>file:///C:/temp</url>
+		</repository>
+	</distributionManagement>
     <build>
         <plugins>
             <plugin>
