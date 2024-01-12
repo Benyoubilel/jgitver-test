@@ -28,21 +28,12 @@
             </plugin>
         </plugins>
     </build>
-
     <distributionManagement>
         <repository>
-            <id>dist-test-nexus-releases</id>
-            <url>c:/temp</url>
+            <id>local-repo</id>
+            <url>file:///C:/temp</url>
         </repository>
-        <snapshotRepository>
-            <id>dist-test-nexus-snapshots</id>
-            <name>Internal Snapshots</name>
-            <url>c:/temp</url>
-        </snapshotRepository>
-        <site>
-            <id>website</id>
-            <url>file://c:/temp</url>
-        </site>
     </distributionManagement>
+
 
 </project>
