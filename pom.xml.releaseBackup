@@ -4,7 +4,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>test-jgitver</artifactId>
-    <version>3.5.6.107.42.1.481-SNAPSHOT</version>
+    <version>3.5.6.107.42.1.485-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -26,7 +26,7 @@
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<tagBase>https://github.com/Benyoubilel/jgitver-test.git</tagBase>
-					<scmCommentPrefix>JIRA#TRUNK-204#${line.separator}</scmCommentPrefix>
+					<scmCommentPrefix>branche#test-204#${line.separator}</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>

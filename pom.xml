@@ -4,7 +4,11 @@
 
     <groupId>org.example</groupId>
     <artifactId>test-jgitver</artifactId>
-    <version>3.5.6.107.42.1.483-SNAPSHOT</version>
+	<packaging>pom</packaging>
+    <version>3.5.6.107.42.1.490-SNAPSHOT</version>
+	<modules>
+		<module>test</module>
+	</modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -26,7 +30,8 @@
 				<configuration>
 					<tagNameFormat>@{project.version}</tagNameFormat>
 					<tagBase>https://github.com/Benyoubilel/jgitver-test.git</tagBase>
-					<scmCommentPrefix>branche test</scmCommentPrefix>
+					<!--suppress UnresolvedMavenProperty -->
+					<scmCommentPrefix>${project.version}#${line.separator}</scmCommentPrefix>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
